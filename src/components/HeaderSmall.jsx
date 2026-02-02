@@ -2,7 +2,7 @@ const HeaderSmall = function (props) {
   console.log("PROPS", props);
   return (
     <div>
-      <h4>{props.label}</h4>
+      <h4>{props.text}</h4>
     </div>
   );
 };

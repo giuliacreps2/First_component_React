@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import HeaderSmall from "./components/HeaderSmall";
+import ImageComponent from "./components/ImageComponent";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,7 +19,8 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <HeaderSmall label="Nuovo Titolo" />
+      <HeaderSmall text="Nuovo Titolo" />
+      <ImageComponent image="https://placecats.com/400/400" description="gatto 400" />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
         <p>
